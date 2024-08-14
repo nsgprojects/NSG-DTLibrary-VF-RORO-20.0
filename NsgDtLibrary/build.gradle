@@ -45,10 +45,12 @@ dependencies {
    // implementation 'com.google.android.gms:play-services-location:15.0.1'
     implementation 'de.siegmar:fastcsv:1.0.3'
    // implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    // implementation 'com.google.android.gms:play-services-location:17.0.0'
+
     implementation 'com.google.android.gms:play-services-maps:17.0.0'
-   // implementation 'com.google.android.gms:play-services-location:17.0.0'
     implementation 'com.google.android.gms:play-services-location:21.3.0'
     implementation 'com.android.support:support-annotations:28.0.0'
     implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
-    //implementation 'com.github.nsgprojects:NSG-DTLibrary-VF-RORO-20.0:1.0' //test
+
+    implementation 'com.github.nsgprojects:NSG-DTLibrary-VF-RORO-20.0:1.0' //test
 }
