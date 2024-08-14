@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rightLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<!--
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary" >
+
+        <TextView
+            android:id="@+id/tv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textSize="25dp"
+            android:text="Maps"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="bottom"
+            android:padding="10dp" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_alignParentRight="true">
+
+            <ImageButton
+                android:id="@+id/change_map_options"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/circle_background_3"
+                android:gravity="center"
+                android:layout_margin="5dp"
+                android:src="@drawable/edit_map"
+                android:textColorHint="#000000"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    -->
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <FrameLayout
+            android:id="@+id/map_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </FrameLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/lay3"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/lay2"
+        android:background="#1D2C4D"
+        android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="40dp"
+                android:text="Start"
+                android:background="#4CAF50"
+                android:layout_height="50dp">
+            </Button>
+
+            <Button
+                android:id="@+id/stop"
+                android:layout_width="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:background="#2984E4"
+                android:layout_marginRight="40dp"
+                android:text="Stop"
+                android:layout_height="50dp">
+            </Button>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+    <!--
+        <FrameLayout
+            android:id="@+id/map_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </FrameLayout>
+        -->
